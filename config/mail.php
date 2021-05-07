@@ -32,6 +32,8 @@ return [
     |            "postmark", "log", "array"
     |
     */
+
+    //smtp 지메일과 연결 안 될 시 추가
     'stream' => [
             'ssl' => [
                 'allow_self_signed' => true,
@@ -39,7 +41,7 @@ return [
                 'verify_peer_name' => false,
             ],
         ],
-        
+
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',

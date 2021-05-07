@@ -1,3 +1,4 @@
+{{-- 메일 서식 --}}
 <table class="mail_form" border="0"> 
     <tr> 
         <th>Subject</th> 
